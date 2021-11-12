@@ -1,0 +1,35 @@
+.email_input {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    min-height: 48px;
+    width: 480px;
+    border: transparent;
+    background-color: #FDFDFD;
+    border-radius: 6px;
+}
+
+.email_input:focus-within {
+    border: 1px solid #0052cc;
+    border-radius: 6px;
+}
+
+.input_area {
+    flex: 1;
+    border: none;
+    height: 46px;
+    font-size: 16px;
+    padding-left: 8px;
+    margin-left: 5px;
+    caret-color: #3996E0;
+    letter-spacing: 1px;
+    border-radius: 6px;
+}
+
+.input_area::placeholder {
+    font-size: 14px;
+}
+
+.input_area:focus {
+    outline: transparent;
+}

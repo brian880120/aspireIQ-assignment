@@ -1,0 +1,77 @@
+.tag_item {
+    width: auto;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    padding: 0 8px;
+    margin-left: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.tag_item:hover {
+    background: #EDEDED;
+}
+
+.tag_item--error {
+    background-color: #F3B7BD;
+}
+
+.tag_item:hover > .delete_tag_icon {
+    display: inline-block;
+}
+
+.tag_item:hover > .error_icon {
+    display: none;
+}
+
+.delete_tag_icon {
+    display: none;
+    font-size: 30px;
+    transform: translate(5px, 5px);
+    padding-right: 5px;
+}
+
+.error_icon {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    width: 17px;
+    height: 17px;
+    border: none;
+    border-radius: 100px;
+    background-color: #F1515F;
+    margin-left: 5px;
+}
+
+.error_icon:before, .error_icon:after {
+    content: '';
+    display: block;
+    position: absolute;
+}
+
+.exclamation:before {
+    top: 15%;
+    left: 30%;
+    height: 8px;
+    width: 2px;
+    border: solid white;
+    border-width: 0 2px 0 0;
+}
+
+.exclamation:after {
+    top: 70%;
+    left: 30%;
+    height: 3px;
+    width: 2px;
+    border: solid white;
+    border-width: 0 2px 0 0;
+}
+
+.error_icon--hidden {
+    display: none;
+}

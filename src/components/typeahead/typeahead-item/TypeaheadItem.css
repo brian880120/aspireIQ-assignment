@@ -1,0 +1,14 @@
+.typeahead_item {
+    cursor: pointer;
+    padding: 10px 20px;
+    line-height: 24px;
+    color: #1A1818;
+}
+
+.typeahed_item--focus {
+    background-color: #EFF5F9;
+}
+
+.typeahead_item:hover {
+    background-color: #EFF5F9;
+}
