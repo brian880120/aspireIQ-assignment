@@ -61,3 +61,4 @@ npm run dev
 - Better mobile view support
 - Invalid email address should have its own UI behaviour on mouse hover over
 - **Backspace** button press should be supported if the user wants to delete an email address item (more logic needs to be handled in this case, because a **Backspace** press could mean delete a character from the current input field or delete an email address item)
+- Email address format validation is good to have
