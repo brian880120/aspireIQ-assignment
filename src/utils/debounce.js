@@ -1,3 +1,4 @@
+// basic debounce function to prevent request on every key stroke from users
 const debounce = (fn, delay) => {
     let timer;
 
