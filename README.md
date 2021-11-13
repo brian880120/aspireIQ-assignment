@@ -50,9 +50,12 @@ npm run dev
 ##### From the tech perspective:
 - React component unit test
 - In `EmailInput.jsx`, I handled all user actions by defining function in this file, and I passed two functions to children components. This is not the best practice because:
-1 - Code in `EmailInput.jsx` will be too long to read if we have more requirements
-2 - Passing functions from parent component to children component chould be tidous, because we don't know how many intermediate components that we have between the parent component and the target child component
-3 - To solve the coding structure problem mentioned above, we could apply `useReducer + useContext` pattern. This I am happy to discuss if I have a chance. `useReducer` could decouple the logic between `what to do` and `how to do` in the component, and `useContext` could help to allow children components to access parent state and function from anywhere in the component tree. However, `useReducer + useContext` pattern also has pros and cons, pros > cons for larger React project in my opionion.
+
+  1 - Code in `EmailInput.jsx` will be too long to read if we have more requirements
+
+  2 - Passing functions from parent component to children component chould be tidous, because we don't know how many intermediate components that we have between the parent component and the target child component
+
+  3 - To solve the coding structure problem mentioned above, we could apply `useReducer + useContext` pattern. This I am happy to discuss if I have a chance. `useReducer` could decouple the logic between `what to do` and `how to do` in the component, and `useContext` could help to allow children components to access parent state and function from anywhere in the component tree. However, `useReducer + useContext` pattern also has pros and cons, pros > cons for larger React project in my opionion.
 
 ##### From user perspective:
 - Better mobile view support
