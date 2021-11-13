@@ -5,7 +5,9 @@
 - The user is able to delete an email address
 - Autocomplete dropdown is available when matched email addresses are found
 - When autocomplete dropdown is available, user could choose an email address by
+
 1 - click on the target email address
+
 2 - use **arrow up** or **arrow down** key to focus on a target email address, and press **ENTER** or **TAB** key
 
 ## Testing Environment
