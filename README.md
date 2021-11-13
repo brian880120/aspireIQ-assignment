@@ -55,7 +55,7 @@ npm run dev
 
   2 - Passing functions from parent component to children component chould be tidous, because we don't know how many intermediate components that we have between the parent component and the target child component
 
-  3 - To solve the coding structure problem mentioned above, we could apply `useReducer + useContext` pattern. This I am happy to discuss if I have a chance. `useReducer` could decouple the logic between `what to do` and `how to do` in the component, and `useContext` could help to allow children components to access parent state and function from anywhere in the component tree. However, `useReducer + useContext` pattern also has pros and cons, pros > cons for larger React project in my opionion.
+  3 - To solve the coding structure problem mentioned above, we could apply `useReducer + useContext` pattern. This I am happy to discuss in detail if I have a chance. `useReducer` could decouple the logic between `what to do` and `how to do` in the component, and `useContext` could help to allow children components to access parent state and function from anywhere in the component tree. However, `useReducer + useContext` pattern also has pros and cons, pros > cons for larger React project in my opionion.
 
 ##### From user perspective:
 - Better mobile view support
